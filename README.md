@@ -1,14 +1,29 @@
 # Covid-19-News-Articles-2020-2022-Analysis
 
-COVID-19 has impacted the world significantly since its outbreak in 2019. With the rapid spread of the virus and its continuous mutations, keeping up with the latest news and research about the virus is essential.
+## Overview
+Covid-19-News-Articles-2020-2022-Analysis is a **Jupyter Notebook** project. This repository contains the source code, documentation, and any related assets for the project.
 
-In this dataset, we are provided with a dataset of COVID news articles collected from various sources from 2020 to 2022. The dataset includes articles related to COVID-19's impact on health, society, politics, economy, and technology.
+## Intent
+The intention behind this project is to provide a reference implementation, demonstrate Covid-19-News-Articles-2020-2022-Analysisâ€™s functionality, and serve as a learning or showcase resource.
 
-The goal of this analysis is to create a knowledge graph that captures the relationships and entities mentioned in these articles. Specifically, we want to extract the following information from the dataset:
-Identify the named entities mentioned in the articles (such as countries, organizations, people, and diseases).
+## Complexity
+Medium
 
-Extract the relationships between entities mentioned in the articles (such as "Person X works for Organization Y").
+## How to Run
+`
+# Clone the repository
 
-Identify the key topics and subtopics discussed in the articles (such as "Vaccine development," "Lockdown measures," or "COVID-19 variants").
+git clone https://github.com/SughoshDixit/Covid-19-News-Articles-2020-2022-Analysis.git
 
-Analyze the sentiment of the articles towards these topics (positive, negative, or neutral).
+cd Covid-19-News-Articles-2020-2022-Analysis
+
+# Install dependencies
+python -m venv venv
+.\\venv\\Scripts\\activate
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+`
+
+*(If the project uses a different build tool, replace the commands above with the appropriate instructions.)*
